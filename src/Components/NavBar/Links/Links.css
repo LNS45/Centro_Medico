@@ -1,0 +1,11 @@
+
+.Links_Container{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Links_Container a:first-child {
+    font-weight: 700;
+}
