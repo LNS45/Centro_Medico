@@ -1,0 +1,25 @@
+
+.Presentation{
+    width: 45%;
+    height: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Presentation h1{
+    font-size: 2.5rem;
+}
+
+.Presentation p{
+    color: #7D7987;
+}
+
+.Presentation button{
+    width: 120px;
+    padding: 8px 5px;
+    border-radius: 20px;
+    background-color: #458FF6;
+    border: none;
+    cursor: pointer;
+}

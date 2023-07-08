@@ -1,0 +1,13 @@
+
+.Header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header img {
+    width: 500px;
+}
