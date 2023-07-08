@@ -91,7 +91,28 @@ body {
   padding-top: 10px;
   font-family: "Poppins";
 }
-
+.highlightText{
+  font-weight: 700;
+}
+.subtitle{
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.subtitle::before{
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -20px;
+}
+.normalText{
+  color: #7D7987;
+}
 a {
   color: inherit;
   text-decoration: none;
