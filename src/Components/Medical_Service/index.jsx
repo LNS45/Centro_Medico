@@ -1,3 +1,4 @@
+import Button from '../Basics/Button';
 import CardsContainer from './Cards_Container';
 import './Medical.css'
 
@@ -7,6 +8,7 @@ const Medical_Service = () => {
         <h2 className='highlightText subtitle'>Nuestros Servicios</h2>
         <p className='normalText'>Te proveemos con las mejores opciones para ti. Nos ajustamos a tu salud y nos aseguramos de que tu tratamiento sea de alta calidad. Puedes consultarnos para saber que tipo de servicio es el mejor para tu salud.</p>
         <CardsContainer />
+        <Button text="Ver más"/>
     </section>
 };
 

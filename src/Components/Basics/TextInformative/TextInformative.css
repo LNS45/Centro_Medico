@@ -1,5 +1,5 @@
 
-.Presentation{
+.TextInformative{
     width: 45%;
     height: 15.625rem;
     display: flex;
@@ -7,19 +7,18 @@
     gap: 20px;
 }
 
-.Presentation h1{
+.TextInformative h1{
     font-size: 2.5rem;
 }
 
-.Presentation p{
+.TextInformative p{
     color: #7D7987;
 }
 
-.Presentation button{
+.TextInformative button{
     width: 120px;
     padding: 8px 5px;
     border-radius: 20px;
-    background-color: #458FF6;
     border: none;
     cursor: pointer;
 }

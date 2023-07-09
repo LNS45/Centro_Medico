@@ -1,0 +1,17 @@
+
+.Diferencial{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.Diferencial img{
+    width: 500px;
+}
+
+.Diferencial div{
+    gap: 40px;
+}
