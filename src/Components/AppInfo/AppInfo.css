@@ -1,0 +1,18 @@
+
+.AppInfo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0 10%;
+}
+
+.AppInfo img{
+    width: 500px;
+
+}
+
+.AppInfo div{
+    gap: 50px;
+}

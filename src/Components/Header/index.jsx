@@ -9,7 +9,7 @@ const Header = () => {
         buttonText: "Consulta hoy"
     };
     return <header className="Header">
-        <TextInformative title={texts.title} text={texts.text} buttonText={texts.buttonText} type="Title"/>
+        <TextInformative title={texts.title} text={texts.text} buttonText={texts.buttonText} type="Title" buttonType="Filled"/>
         <img src="/Header-Illustration.png" alt="Ilustracion" style={{visibility: {visibilidad}}}></img>
     </header>
 };

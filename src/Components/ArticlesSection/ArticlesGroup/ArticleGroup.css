@@ -1,0 +1,9 @@
+
+.ArticleGroup{
+    width: 100%;
+    padding: 0 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}

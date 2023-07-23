@@ -1,0 +1,87 @@
+
+.Carrousel{
+    width: 100%;
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.Content{
+    width: 940px;
+    height: 300px;
+    background: linear-gradient(223deg, #67C3F3 0%, #5A98F2 100%);
+    border-radius: 15px;
+    text-align: center;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titleCarrousel{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.titleCarrousel::before{
+    content: '';
+    width: 50px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+}
+
+.clientInfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clientInfo p{
+    color: white;
+    font-weight: 200;
+    width: 1100px;
+}
+.clientInfoPersonal{
+    width: 62.5rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.clientInfoPersonal img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid #FFFFFF;
+    border-radius: 100%;
+}
+.clientInfoPersonal span{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.Buttons button{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+.btnRight:active{
+    transform: translateX(10px);
+}
+.btnLeft:active{
+    transform: translateX(-10px);
+    opacity: 100;
+}
+
