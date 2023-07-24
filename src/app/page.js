@@ -5,7 +5,7 @@ import Medical_Service from "@/Components/Medical_Service";
 import AppInfo from "@/Components/AppInfo";
 import Carrousel from "@/Components/Carrousel";
 import ArticlesSection from "@/Components/ArticlesSection";
-
+import Footer from "@/Components/Footer";
 const Home = () => {
 
   return (
@@ -17,6 +17,7 @@ const Home = () => {
       <AppInfo />
       <Carrousel />
       <ArticlesSection />
+      <Footer />
     </>
   )
 }

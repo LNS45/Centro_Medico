@@ -1,0 +1,26 @@
+
+
+.Links_Container{
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 100%;
+}
+
+.Links_Container span{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.Links_Container ul{
+    list-style: disc;
+    color: white;
+}
+.Links_Container li{
+    margin-top: .5rem;
+}
+.Links_Container a{
+    color: white;
+    font-weight: 200;
+}

@@ -1,0 +1,17 @@
+
+.CopyRight_Container{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.CopyRight_Container img{
+    width: 200px;
+}
+
+.CopyRight_Container p, span {
+    color: white;
+    font-weight: 200;
+}
