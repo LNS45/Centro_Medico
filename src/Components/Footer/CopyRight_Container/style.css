@@ -1,17 +1,23 @@
 
 .CopyRight_Container{
-    width: 30rem;
+    width: 30em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: .9375em;
 }
 
 .CopyRight_Container img{
-    width: 200px;
+    width: 12.5em;
 }
 
 .CopyRight_Container p, span {
     color: white;
     font-weight: 200;
+}
+
+@media screen and (max-width: 768px){
+    .CopyRight_Container{
+        width: 100%;
+    }
 }

@@ -1,16 +1,14 @@
-
-
 .Links_Container{
     display: flex;
     flex-direction: column;
-    width: 10rem;
+    width: 10em;
     height: 100%;
 }
 
 .Links_Container span{
     color: white;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .Links_Container ul{
@@ -18,7 +16,7 @@
     color: white;
 }
 .Links_Container li{
-    margin-top: .5rem;
+    margin-top: .5em;
 }
 .Links_Container a{
     color: white;

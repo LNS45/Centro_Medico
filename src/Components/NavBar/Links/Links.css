@@ -1,11 +1,19 @@
 
-.Links_Container{
-    width: 500px;
-    height: auto;
+.Link_Container{
+    width: 31.25em;
+    height: 3.125em;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.Link{
+    color: black;
+}
+.Link_Container a:first-child {
+    font-weight: 700;
 }
 
-.Links_Container a:first-child {
-    font-weight: 700;
+@media screen and (max-width: 768px){
+    .Link_Container{
+        display: none;
+    }
 }

@@ -6,13 +6,40 @@
     align-items: center;
     flex-direction: row-reverse;
     padding: 0 10%;
+    justify-content: space-around;
+    font-size: 1rem;
 }
 
 .AppInfo img{
-    width: 500px;
+    width: 31.25em;
 
 }
 
 .AppInfo div{
-    gap: 50px;
+    gap: 3.125em;
+}
+
+/*Adaptabilidad movil*/
+@media screen and (max-width: 1279px) and (min-width: 769px){
+    .AppInfo{
+        font-size: .8rem;
+    }
+    .AppInfo img{
+        width: 25em;
+    }
+}
+@media screen and (max-width: 768px){
+    .AppInfo{
+        margin-top: 200px;
+        font-size: 1.5em;
+    }
+    .AppInfo img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .AppInfo{
+        font-size: 1em;
+    }
 }

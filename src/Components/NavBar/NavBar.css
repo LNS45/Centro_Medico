@@ -1,9 +1,48 @@
 
 .NavBar_Container{
     width: 100%;
-    height: 60px;
+    height: 5.75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
+    font-size: 1rem;
+    position: relative;
+
+}
+.NavBar_Container button{
+    width: 3.125em;
+    height: 3.125em;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url("/menu.png");
+    display: none;
+    z-index: 4;
+}
+
+/*Adaptabilidad movil*/
+@media screen and (max-width: 1279px) and (min-width: 769px){
+    .NavBar_Container{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .NavBar_Container button{
+        display: inline;
+    }
+    .NavBar_Container{
+        top: 0;
+        margin-bottom: 300px;
+        font-size: .7rem;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 2);
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 375px){
+    .NavBar_Container{
+        font-size: .7rem;
+    }
 }

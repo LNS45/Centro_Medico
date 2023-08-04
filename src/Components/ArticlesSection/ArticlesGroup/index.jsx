@@ -6,7 +6,7 @@ const ArticleGroup = () => {
     const articles = [
         {
             title: "La importancia de una deteccion temprana.",
-            text: "Los laboratorios juegan un rol importante en el cuidado de tu salud a la hora de detectar tempranamente alguna enfermedad peligrosa...",
+            text: "Los laboratorios juegan un rol importante en el cuidado de tu salud...",
             image: "/article1.png"
         },
         {

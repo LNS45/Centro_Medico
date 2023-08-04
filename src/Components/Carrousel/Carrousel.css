@@ -1,26 +1,28 @@
 
 .Carrousel{
     width: 100%;
-    padding: 50px 10%;
+    padding: 3.125em 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: .625em;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
 .Content{
-    width: 940px;
-    height: 300px;
+    width: 58.75em;
+    height: 18.75em;
     background: linear-gradient(223deg, #67C3F3 0%, #5A98F2 100%);
-    border-radius: 15px;
+    border-radius: .9375em;
     text-align: center;
-    padding: 1.25rem;
+    padding: 1.25em;
     display: flex;
     flex-direction: column;
     
 }
 .titleCarrousel{
-    font-size: 30px;
+    font-size: 1.875em;
     color: white;
     font-weight: 700;
     position: relative;
@@ -29,12 +31,12 @@
 }
 .titleCarrousel::before{
     content: '';
-    width: 50px;
-    height: 3px;
-    border-radius: 10px;
+    width: 3.125em;
+    height: .1875em;
+    border-radius: .625em;
     background-color: white;
     position: absolute;
-    bottom: -10px;
+    bottom: -0.625em;
 }
 
 .clientInfo{
@@ -47,41 +49,71 @@
 .clientInfo p{
     color: white;
     font-weight: 200;
-    width: 1100px;
+    width: 68.75em;
 }
 .clientInfoPersonal{
-    width: 62.5rem;
+    width: 62.5em;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25em;
 }
 .clientInfoPersonal img{
-    width: 130px;
-    height: 130px;
+    width: 8.125em;
+    height: 8.125em;
     border: 2px solid #FFFFFF;
     border-radius: 100%;
 }
 .clientInfoPersonal span{
     color: white;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 .Buttons button{
-    width: 80px;
-    height: 30px;
-    border-radius: 20px;
+    width: 5em;
+    height: 1.875em;
+    border-radius: 1.25em;
     border: none;
     background-color: transparent;
     cursor: pointer;
     transition: .1s ease-in-out;
 }
 .btnRight:active{
-    transform: translateX(10px);
+    transform: translateX(.625em);
 }
 .btnLeft:active{
-    transform: translateX(-10px);
-    opacity: 100;
+    transform: translateX(-0.625em);
 }
 
+/*Adaptabilidad movil*/
+@media screen and (max-width: 1279px) and (min-width: 769px){
+    .Carrousel{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Carrousel{
+        font-size: 1.2rem;
+    }
+    .Content{
+        width: 100%;
+        height: 500px;
+    }
+    .clientInfo{
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .clientInfo p{
+        width: 100%;
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .Carrousel{
+        display: none;
+    }
+}

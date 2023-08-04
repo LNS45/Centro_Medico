@@ -4,14 +4,41 @@
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 10%;
+    font-size: 1rem;
 }
 
 .Diferencial img{
-    width: 500px;
+    width: 31.25em;
 }
 
 .Diferencial div{
-    gap: 40px;
+    gap: 2.5em;
+}
+
+/*Adaptabilidad movil*/
+@media screen and (max-width: 1279px) and (min-width: 769px){
+    .Diferencial{
+        font-size: .8rem;
+    }
+    .Diferencial img{
+        width: 25em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Diferencial{
+        margin-top: 50px;
+        font-size: 1.5em;
+    }
+    .Diferencial img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .Diferencial{
+        font-size: 1em;
+    }
 }

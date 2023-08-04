@@ -1,11 +1,11 @@
 
 .Button{
     border: 1px solid #458FF6;
-    width: 200px;
-    padding: 10px;
-    height: 40px;
+    width: 12.5em;
+    padding: .625em;
+    height: 2.5em;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 1.25em;
     color: #458FF6;
     font-weight: 700;
 }

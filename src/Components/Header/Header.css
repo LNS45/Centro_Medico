@@ -6,8 +6,40 @@
     padding: 0 10%;
     align-items: center;
     justify-content: space-between;
+    font-size: 1rem;
 }
 
 .Header img {
-    width: 500px;
+    width: 31.25em;
+}
+
+/*Adaptabilidad movil*/
+@media screen and (max-width: 1279px) and (min-width: 769px){
+    .Header{
+        font-size: .8rem;
+    }
+    .Header img{
+        width: 25em;
+    }
+}
+@media screen and (max-width: 768px){
+    .Header{
+        margin-top: 90px;
+        font-size: 1.3rem;
+    }
+    .Header img{
+        display: none;
+    }
+    .Header div{
+        width: 100%;
+        white-space: pre-wrap;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .Header{
+        margin-top: 120px;
+        margin-bottom: 80px;
+        font-size: 1rem;
+    }
 }
